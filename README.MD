@@ -5,6 +5,8 @@ A robust Node.js API for scraping Twitter user profiles and tweets without using
 ## ⚠️ Important Disclaimer
 
 This tool is for educational and research purposes only. Please ensure you comply with:
+BLAH BLAH, if you want to know about the paths, go over to [text](https://github.com/Abhinavpatra/X-scraper/blob/main/PATHS.md)PATHS.md
+
 - Twitter's Terms of Service
 - Applicable laws and regulations in your jurisdiction
 - Respect for user privacy and data protection laws (GDPR, CCPA, etc.)
