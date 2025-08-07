@@ -5,13 +5,16 @@ A robust Node.js API for scraping Twitter user profiles and tweets without using
 ## ⚠️ Important Disclaimer
 
 This tool is for educational and research purposes only. Please ensure you comply with:
-BLAH BLAH, if you want to know about the paths, go over to [text](https://github.com/Abhinavpatra/X-scraper/blob/main/PATHS.md)PATHS.md
+BLAH BLAH, if you want to know about the paths, go over to [PATHS.md](https://github.com/Abhinavpatra/X-scraper/blob/main/PATHS.md)PATHS.md
 
 - Twitter's Terms of Service
 - Applicable laws and regulations in your jurisdiction
 - Respect for user privacy and data protection laws (GDPR, CCPA, etc.)
 - Rate limiting to avoid overwhelming Twitter's servers
 
+Inspired from: 
+  [@ArjunShips on X](https://x.com/ArjunShips/status/1949459952587997550)
+  
 ## 🚀 Features
 
 - **User Profile Scraping**: Extract complete profile information including bio, follower counts, and verification status
@@ -219,7 +222,7 @@ docker build -t twitter-scraper-api .
 docker run -p 3000:3000 twitter-scraper-api
 ```
 
-## 🚀 Production Deployment
+## Production Deployment
 
 ### Using PM2 (Process Manager)
 
@@ -246,7 +249,7 @@ server {
 }
 ```
 
-## ⚡ Performance Tips
+## Performance Tips
 
 1. **Reuse Browser Instance**: The scraper reuses the same browser/page for multiple requests
 2. **Adjust Delays**: Decrease `scrollDelay` for faster scraping (but higher detection risk)
@@ -254,7 +257,7 @@ server {
 4. **Error Handling**: Implement retry logic for failed requests
 5. **Caching**: Consider caching results to reduce repeat scraping
 
-## 🛡️ Anti-Detection Measures
+## Anti-Detection Measures
 
 The scraper includes several anti-detection features:
 - Real browser user agent
@@ -263,7 +266,7 @@ The scraper includes several anti-detection features:
 - Proper viewport settings
 - Standard Chrome flags
 
-## 📊 Usage Examples
+## Usage Examples
 
 ### Python Client
 ```python
@@ -295,7 +298,7 @@ getUserProfile("elonmusk").then(profile => {
 });
 ```
 
-## 🔍 Troubleshooting
+## Troubleshooting
 
 **Common Issues:**
 
@@ -307,24 +310,23 @@ getUserProfile("elonmusk").then(profile => {
 **Debug Mode:**
 Set `headless: false` in Puppeteer options to see browser actions.
 
-## 📝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch
 3. Commit your changes
 4. Push to the branch
 5. Create a Pull Request
+ is licensed under the MIT License. See the LICENSE file for details.
 
-## 📄 License
-
-This project is licensed under the MIT License. See the LICENSE file for details.
-
-## ⚖️ Legal Notice
+## Legal Notice
 
 This tool is provided for educational purposes only. Users are responsible for ensuring their use complies with:
 - Twitter's Terms of Service
 - Applicable laws and regulations
 - Ethical web scraping practices
 - Respect for user privacy and data protection
+- being cool.
+- having aura.
 
 Use responsibly and at your own risk.
