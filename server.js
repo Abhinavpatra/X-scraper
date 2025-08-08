@@ -506,5 +506,5 @@ process.on('SIGTERM', async () => {
 app.listen(PORT, () => {
   console.log(`Twitter Scraper API is running on port ${PORT}`);
   console.log(`Health check: http://localhost:${PORT}/api/health`);
-  console.log(`Example: http://localhost:${PORT}/api/user/elonmusk/tweets?maxTweets=10`);
+  console.log(`Example: http://localhost:${PORT}/api/user/Star_Knight12/tweets?maxTweets=10`);
 });

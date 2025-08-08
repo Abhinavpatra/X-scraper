@@ -2,9 +2,10 @@
 
 A robust Node.js API for scraping Twitter user profiles and tweets without using the official Twitter API. Built with Puppeteer for reliable browser automation and Express for RESTful endpoints.
 
-## ⚠️ Important Disclaimer
+## Important Disclaimer
 
 This tool is for educational and research purposes only. Please ensure you comply with:
+you can manipulate, and play around with the values and time for scraping to get more tweets or use a strogner machine for better performance,
 BLAH BLAH, if you want to know about the paths, go over to [PATHS.md](https://github.com/Abhinavpatra/X-scraper/blob/main/PATHS.md)PATHS.md
 
 - Twitter's Terms of Service
@@ -15,7 +16,7 @@ BLAH BLAH, if you want to know about the paths, go over to [PATHS.md](https://gi
 Inspired from: 
   [@ArjunShips on X](https://x.com/ArjunShips/status/1949459952587997550)
   
-## 🚀 Features
+## Features
 
 - **User Profile Scraping**: Extract complete profile information including bio, follower counts, and verification status
 - **Tweet Extraction**: Scrape tweets with full engagement metrics (likes, retweets, replies, views)
@@ -25,12 +26,13 @@ Inspired from:
 - **RESTful API**: Clean, easy-to-use endpoints
 - **Error Handling**: Comprehensive error handling and logging
 
-## 📋 Prerequisites
+## Prerequisites
 
 - Node.js (version 16 or higher)
 - Chrome/Chromium browser (installed automatically with Puppeteer)
+- npx puppeteer browsers install chrome (may have to do this, it will show in the console)
 
-## 🛠️ Installation
+## Installation
 
 1. **Clone or create the project**:
 ```bash
@@ -54,7 +56,7 @@ npm run dev
 
 The API will be available at `http://localhost:3000`
 
-## 🎯 API Endpoints
+##  API Endpoints
 
 ### Health Check
 ```
